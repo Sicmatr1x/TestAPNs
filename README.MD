@@ -1,5 +1,11 @@
 # TestAPNs
 
+A simple local server to testing the APNs send notification to your device
+
+## How to use
+
+### install
+
 ```
 npm install
 ```
@@ -7,6 +13,18 @@ npm install
 ```
 npm run start
 ```
+
+### config your certificate(.p12 files)
+
+```
+mkdir certificate
+```
+
+copy your certificate file to certificate folder
+
+### use Postman or other tool send post request
+
+![](post-request.png)
 
 localhost:9600/apns/test
 
